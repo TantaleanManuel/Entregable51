@@ -1,0 +1,59 @@
+.Home{
+    /* background-color: #dd1a1a; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    justify-content: center;
+    margin-top: 150px;
+    padding-left: 200px;
+    margin-right: 50px;
+    height: 30vh;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 270px;}
+
+.img {
+    max-width: 200%;
+    max-height: 100%;
+}
+
+.Home_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Home_greeting{
+    font-size: 30px;
+    color: red;
+}
+
+.Home_form {
+    color: red;   
+}
+
+.Home_input {
+    color: blue;
+    font-size: 18px;   
+}
+
+.Home_buttom{
+    padding: 6px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    color: white;   
+
+}
+
+.Home_foot {
+    height:100px ;
+    background-color: white ;
+    position: relative;
+}

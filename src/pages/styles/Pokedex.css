@@ -1,0 +1,72 @@
+.Pokedex_mensaje {
+    font-style: italic solid;
+    font-size: large;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.caja1 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.caja2 {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+} 
+}
+
+
+
+.Pokedex_search{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+}
+
+
+.Pokedex_pagina {
+    display: grid;
+    grid-auto-columns: auto;
+    font-family: Helvetica;
+    max-width: 1200px;
+    margin-left: 70px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr ));
+    gap: 15px;
+}
+
+.Pokedex_pagina1 {
+    display: grid;
+    grid-auto-columns: auto;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr ));
+    cursor: pointer;
+}
+
+.Pokedex_numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 15px;
+    font-family: fantasy;
+    letter-spacing: 25px;
+   cursor: pointer;
+}
+
+.Pokedex_button {
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    padding: 7px 15px;
+}
